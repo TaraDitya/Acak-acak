@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daftar Acak</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Daftar Acak</h1>
+        <div id="randomData" class="random-data" style="display: none;"></div>
+        <button class="btn randomize" onclick="randomizeList()">Acak Data</button>
+        
+    </div>
+    <br>
+    <div class="container">
+      <div class="input-group">
+        <input type="text" id="inputData" placeholder="Masukkan data baru">
+        <button class="btn" onclick="addData()">Tambah Data</button>
+    </div>
+    
+    <ul id="dataList"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
